@@ -1,13 +1,13 @@
-##说明
+## 说明
 用于判断对象中的属性是否符合json中的条件
-##API
-####resolveLogic(requirement, object, defaultValue)
+## API
+#### resolveLogic(requirement, object, defaultValue)
 返回true/false
 - requirement 条件
 - object 需要判断的对象
 - defaultValue默认返回值（不包含条件对应的key或者格式错误）
 
-###json的格式说明
+### json的格式说明
 原理是基于二叉树的遍历来解析一个复杂条件，所以json的结构也是一个二叉树
 
 节点（nodeType）的类型分为两种
@@ -16,7 +16,7 @@
 - 条件节点（requirement）
 包含具体的条件
 
-#####条件类型
+##### 条件类型
 目前支持的条件判断类型（requireType）有7种
 - 正则 regex
 - 枚举 enum
@@ -26,7 +26,7 @@
 - 小于 <
 - 小于等于 <=
 
-###示例
+### 示例
 ```
 var requirement = {
     nodeType: "logic",

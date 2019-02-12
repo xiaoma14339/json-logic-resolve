@@ -106,3 +106,4 @@ var requirement = {
 // 结果应该为true
 var result  = resolveLogic(requirement, date, false);
 ```
+更多示例查看/test/index.js

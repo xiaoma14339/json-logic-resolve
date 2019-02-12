@@ -1,0 +1,19 @@
+{
+  "name": "json-logic-resolve",
+  "version": "1.0.0",
+  "description": "resole logic in json",
+  "main": "./lib/Logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoma14339/json-logic-resolve.git"
+  },
+  "author": "lukequ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoma14339/json-logic-resolve/issues"
+  },
+  "homepage": "https://github.com/xiaoma14339/json-logic-resolve#readme"
+}
